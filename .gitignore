@@ -1,0 +1,24 @@
+
+# Stuff that should be secret:
+.env
+.env.*
+!.env.example
+
+# Gun crap:
+/radata
+
+# Sveltekit / vite crap:
+.svelte-kit
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+/build
+
+# EWAB crap:
+.ewab-cache
+/production
+
+# npm crap:
+node_modules
+
+# OS crap:
+.DS_Store

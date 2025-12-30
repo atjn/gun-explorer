@@ -1,0 +1,25 @@
+
+* {
+	box-sizing: border-box;
+}
+.scope {
+	position: relative;
+	width: fit-content;
+	border: 2px solid black;
+	border-radius: 1em;
+	padding: 10px;
+	margin: 10px;
+	word-wrap: break-word;
+}
+.scope .scope-value.plain{
+	word-wrap: break-word;
+}
+.scope.embedded.decode-embedded .plain{
+	display: none;
+}
+.scope.embedded:not(.decode-embedded) .embedded{
+	display: none;
+}
+.soul {
+	background-color: red;
+}
